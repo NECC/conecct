@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Mail, Globe, Calendar, Clock, Github, Book, ArrowLeftRight, UserPlus } from "lucide-react"
+import { Instagram, Facebook, Mail, Globe, Calendar, Clock, Github, Book, ArrowLeftRight, UserPlus, ArrowRight } from "lucide-react"
 
 // Discord Icon Component (Lucide doesn't have Discord icon)
 const Discord = ({ className }: { className?: string }) => (
@@ -86,10 +86,11 @@ const SOCIAL_LINKS = [
 // Featured Event (appears at the top if active)
 const FEATURED_EVENT = {
   title: "Jantar de Curso Inverno",
-  description: "Dia 26 de Novembro, pelas 20h00, prepara-te para o jantar de curso de LCC! O preço é de 12€ (sócio) e de 14€ (não sócio) e para garantires a tua reserva deves preencher este formulário e fazer o pagamento até ao dia 24 de Novembro às 23h00.",
+  description: "Dia 26 de Novembro, pelas 20h00. Preço: 12€ (sócio) / 14€ (não sócio).",
   href: "https://forms.gle/B3RtWmwookuKTUgo6",
   image: "/jantar.png",
   eventDate: "26 Nov 2025",
+  registrationDeadline: "24 Nov 2025, 23h00",
   expiresAt: new Date("2025-11-26T20:00:00"), // Expires on event day at 8 PM
 }
 
@@ -210,9 +211,9 @@ export default function LinkInBioPage() {
                   href={FEATURED_EVENT.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full p-5 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-2xl shadow-2xl border-2 border-cyan-400/50 hover:shadow-cyan-500/50 transition-all hover:scale-[1.02] group"
+                  className="block w-full p-5 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-2xl shadow-2xl border-2 border-cyan-400/50 hover:border-cyan-300/70 active:scale-[0.98] active:shadow-lg transition-all hover:scale-[1.02] group cursor-pointer relative overflow-hidden animate-pulse-border"
                 >
-                  <div className="flex items-start gap-4">
+                  <div className="flex items-start gap-4 relative z-10">
                     <div className="flex-shrink-0 w-16 h-16 rounded-xl overflow-hidden bg-white/10 ring-2 ring-white/30">
                       <img
                         src={FEATURED_EVENT.image || "/placeholder.svg"}
@@ -237,10 +238,11 @@ export default function LinkInBioPage() {
                         </div>
                         <div className="flex items-center gap-1.5">
                           <Clock className="w-3.5 h-3.5" />
-                          <span>Inscrições até ao evento</span>
+                          <span>Inscrições até {FEATURED_EVENT.registrationDeadline}</span>
                         </div>
                       </div>
                     </div>
+                    <ArrowRight className="w-5 h-5 text-cyan-100/80 flex-shrink-0 mt-1 group-hover:text-cyan-50 group-hover:translate-x-1 transition-all" />
                   </div>
                 </a>
               )}
