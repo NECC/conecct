@@ -9,25 +9,17 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 // <CHANGE> Updated metadata for link in bio page
 export const metadata: Metadata = {
-  title: "Rebecca Taylor | Fitness Coach",
-  description: "Fitness coach helping you achieve your health and wellness goals",
+  title: "NECC | Núcleo de estudantes de Ciências da Computação",
+  description: "Núcleo de estudantes de Ciências da Computação",
   generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/necc-logo.png",
+        type: "image/png",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/necc-logo.png",
   },
 }
 
