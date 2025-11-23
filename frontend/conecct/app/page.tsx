@@ -173,7 +173,7 @@ export default function LinkInBioPage() {
           >
             {/* Logo */}
             <div className="mb-6">
-              <img src={PROFILE.logo} alt={`${PROFILE.name} Logo`} className="w-32 h-32 object-contain drop-shadow-2xl" />
+              <img src={PROFILE.logo} alt={`${PROFILE.name} Logo`} className="w-32 h-32 object-contain drop-shadow-2xl rounded-lg" />
             </div>
 
             {/* Name and Title */}
