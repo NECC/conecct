@@ -91,7 +91,7 @@ const FEATURED_EVENT = {
   image: "/jantar.png",
   eventDate: "26 Nov 2025",
   registrationDeadline: "24 Nov 2025, 23h00",
-  expiresAt: new Date("2025-11-26T20:00:00"), // Expires on event day at 8 PM
+  expiresAt: new Date("2025-11-24T23:00:00"), // Expires when registration deadline passes
 }
 
 // Regular Links
