@@ -86,12 +86,12 @@ const SOCIAL_LINKS = [
 // Featured Event (appears at the top if active)
 const FEATURED_EVENT = {
   title: "Jantar de Curso Inverno",
-  description: "Dia 26 de Novembro, pelas 20h00. Preço: 12€ (sócio) / 14€ (não sócio).",
-  href: "https://forms.gle/B3RtWmwookuKTUgo6",
-  image: "/jantar.png",
-  eventDate: "26 Nov 2025",
-  registrationDeadline: "24 Nov 2025, 23h00",
-  expiresAt: new Date("2025-11-24T23:00:00"), // Expires when registration deadline passes
+  description: "Dia 20 de Dezembro, pelas 20h00. Preço: 12,5€ (sócio) / 14€ (não sócio).",
+  href: "https://docs.google.com/forms/d/e/1FAIpQLSdvMxZ03vTLJyTDuXtcDqvbsRKGNSGknel6xHdi1GhBy0Bv0Q/viewform?usp=header",
+  image: "/jantar-natal25.jpeg",
+  eventDate: "20 Dec 2025",
+  registrationDeadline: "18 Dec 2025, 23h00",
+  expiresAt: new Date("2025-12-18T23:00:00"), // Expires when registration deadline passes
 }
 
 // Regular Links
