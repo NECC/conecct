@@ -213,7 +213,7 @@ export default function LinkInBioPage() {
                   rel="noopener noreferrer"
                   className="block w-full p-5 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-2xl shadow-2xl border-2 border-cyan-400/50 hover:border-cyan-300/70 active:scale-[0.98] active:shadow-lg transition-all hover:scale-[1.02] group cursor-pointer relative overflow-hidden animate-pulse-border"
                 >
-                  <div className="flex items-start gap-4 relative z-10">
+                  <div className="flex items-start gap-3 relative z-10">
                     <div className="flex-shrink-0 w-16 h-16 rounded-xl overflow-hidden bg-white/10 ring-2 ring-white/30">
                       <img
                         src={FEATURED_EVENT.image || "/placeholder.svg"}
@@ -231,7 +231,7 @@ export default function LinkInBioPage() {
                         {FEATURED_EVENT.title}
                       </h3>
                       <p className="text-sm text-cyan-50/90 mb-3 leading-snug">{FEATURED_EVENT.description}</p>
-                      <div className="flex items-center gap-4 text-xs text-cyan-100/90">
+                      <div className="flex items-center gap-3 text-xs text-cyan-100/90">
                         <div className="flex items-center gap-1.5">
                           <Calendar className="w-3.5 h-3.5" />
                           <span>{FEATURED_EVENT.eventDate}</span>
