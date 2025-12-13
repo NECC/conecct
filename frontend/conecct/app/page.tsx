@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Mail, Globe, Calendar, Clock, Github, Book, ArrowLeftRight, UserPlus, ArrowRight } from "lucide-react"
+import { Instagram, Facebook, Mail, Globe, Calendar, Clock, Github, Book, ArrowLeftRight, UserPlus, ExternalLink } from "lucide-react"
 
 // Discord Icon Component (Lucide doesn't have Discord icon)
 const Discord = ({ className }: { className?: string }) => (
@@ -242,7 +242,7 @@ export default function LinkInBioPage() {
                         </div>
                       </div>
                     </div>
-                    <ArrowRight className="w-5 h-5 text-cyan-100/80 flex-shrink-0 mt-1 group-hover:text-cyan-50 group-hover:translate-x-1 transition-all" />
+                    <ExternalLink className="w-5 h-5 text-cyan-100/80 flex-shrink-0 mt-1 group-hover:text-cyan-50 group-hover:scale-110 transition-all" />
                   </div>
                 </a>
               )}
