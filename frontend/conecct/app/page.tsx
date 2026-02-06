@@ -124,8 +124,8 @@ const LINKS = [
     highlight: false,
   },
   {
-    title: "Material de Curso",
-    href: "https://github.com/NECC/Material-de-Curso",
+    title: "Material do Curso",
+    href: "https://github.com/NECC/Material-Do-Curso",
     image: "/calendar-events-icon.jpg",
     icon: Book,
     highlight: false,
@@ -136,13 +136,13 @@ const LINKS = [
   //   image: "/calendar-events-icon.jpg",
   //   highlight: false,
   // },
-  {
-    title: "DropBox",
-    href: "https://bit.ly/dropboxLCC",
-    image: "/calendar-events-icon.jpg",
-    icon: Dropbox,
-    highlight: false,
-  },
+  // {
+  //   title: "DropBox",
+  //   href: "https://bit.ly/dropboxLCC",
+  //   image: "/calendar-events-icon.jpg",
+  //   icon: Dropbox,
+  //   highlight: false,
+  // },
 ]
 
 export default function LinkInBioPage() {
