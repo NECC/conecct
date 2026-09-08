@@ -97,6 +97,12 @@ const FEATURED_EVENT = {
 // Regular Links
 const LINKS = [
   {
+    title: "Formulário NECC",
+    href: "https://forms.gle/3W5UGX74HZX2c1Sa6",
+    image: "/necc-logo.png",
+    highlight: false,
+  },
+  {
     title: "Comunidade Ciências da Computação - UMinho",
     href: "https://chat.whatsapp.com/HTGQZNNGbcHK6l6fHrNF1N",
     image: "/calendar-events-icon.jpg",
