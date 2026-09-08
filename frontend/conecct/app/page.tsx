@@ -97,10 +97,11 @@ const FEATURED_EVENT = {
 // Regular Links
 const LINKS = [
   {
-    title: "Formulário NECC",
+    title: "Inscreve-te na atividade de acolhimento do NECC",
     href: "https://forms.gle/3W5UGX74HZX2c1Sa6",
-    image: "/necc-logo.png",
-    highlight: false,
+    image: "/icon.png",
+    icon: Calendar,
+    highlight: true,
   },
   {
     title: "Comunidade Ciências da Computação - UMinho",
