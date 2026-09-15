@@ -96,13 +96,13 @@ const FEATURED_EVENT = {
 
 // Regular Links
 const LINKS = [
-  {
-    title: "Inscreve-te na atividade de acolhimento do NECC",
-    href: "https://forms.gle/3W5UGX74HZX2c1Sa6",
-    image: "/necc-logo.png",
-    icon: Calendar,
-    highlight: true,
-  },
+  // {
+  //   title: "Inscreve-te na atividade de acolhimento do NECC",
+  //   href: "https://forms.gle/3W5UGX74HZX2c1Sa6",
+  //   image: "/necc-logo.png",
+  //   icon: Calendar,
+  //   highlight: true,
+  // },
   {
     title: "Comunidade Ciências da Computação - UMinho",
     href: "https://chat.whatsapp.com/HTGQZNNGbcHK6l6fHrNF1N",
