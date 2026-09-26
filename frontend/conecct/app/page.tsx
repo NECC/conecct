@@ -96,6 +96,12 @@ const FEATURED_EVENT = {
 
 // Regular Links
 const LINKS = [
+  {
+    title: "Jantar de Curso Receção 💙",
+    href: "https://forms.gle/i14NTRLZTQUkNMMP8",
+    image: "/jantar-rececao.jpeg",
+    highlight: false,
+  },
   // {
   //   title: "Inscreve-te na atividade de acolhimento do NECC",
   //   href: "https://forms.gle/3W5UGX74HZX2c1Sa6",
