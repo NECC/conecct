@@ -125,7 +125,7 @@ const LINKS = [
   },
   {
     title: "Torna-te Sócio do NECC",
-    href: "https://bit.ly/pre-inscriçãoNECC",
+    href: "https://forms.gle/vig16haRvcaUS2V79",
     image: "/necc-logo.png",
     icon: UserPlus,
     highlight: false,
